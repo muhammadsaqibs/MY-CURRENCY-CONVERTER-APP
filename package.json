@@ -1,0 +1,25 @@
+{
+  "name": "my-currency-converter-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "codes.js",
+  "scripts": {
+    "start": "python -m http.server 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadsaqibs/MY-CURRENCY-CONVERTER-APP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/muhammadsaqibs/MY-CURRENCY-CONVERTER-APP/issues"
+  },
+  "homepage": "https://github.com/muhammadsaqibs/MY-CURRENCY-CONVERTER-APP#readme",
+  "dependencies": {
+    "@google/genai": "^2.11.0"
+  }
+}

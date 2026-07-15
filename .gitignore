@@ -1,0 +1,27 @@
+# Dependencies (Heavy packages ko block karne ke liye)
+node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+
+# Environment Variables & Secret Keys (Passwords safe rakhne ke liye)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Production Builds
+dist/
+build/
+out/
+
+# Debug Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
